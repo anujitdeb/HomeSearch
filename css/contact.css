@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive; */
+}
+body{
+    size: 1500px 2500px;
+    margin: 0;
+}
+.sec1{
+    background-image: url("./hp-hero-desktop-1440w.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 630px;
+    height: 625px;
+    padding: 0%;
+    margin: 0;
+}
+.navbar{
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 110px;
+    width: 1349px;
+}
+#us{
+    margin: 0%;
+    text-align: center;
+    color: white;
+}
+.navbar ul{
+    padding: 0%;
+    display: inline-flex;
+    list-style: none;
+}
+.navbar .nav-logo{
+    width: 400px;
+}
+
+.navbar .heading{
+    width: 900px;
+    padding: 0%;
+    color: white;  
+    text-align: center;
+}
+.heading h1{
+    margin-right: 400px;
+}
+/* .navbar h1{
+    padding: 0%;
+    color: white;
+    margin-right:   600px;
+    text-align: center;
+} */
+.nav-logo{
+    margin-top: -12 px;
+    text-align: left;
+}
+#login{
+    margin-top: 20px;
+    margin-left: 430px;
+    height: 300px;
+    padding-bottom: 60px;
+}
+.para p{
+    padding: 0%;
+    margin: 0%;
+}
+.para{
+    margin-left: 350px;
+    width: 600px;
+    padding: 0;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(85, 18, 253);
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.mdltxt a{
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 7px 0px;
+    margin-left: 390px;
+    background: rgb(3, 100, 100);
+    border-width: 2px;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-style: solid;
+}
+.mdltxt{
+    padding-top: 10px;
+    width: 950px;
+    /* background: white; */
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px 10px;
+    margin-bottom: 0%;
+}
+.mdltxt a:hover{
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
